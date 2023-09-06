@@ -19,7 +19,7 @@ class MainViewModel @Inject constructor(
     private val _state = mutableStateOf(RabbitState())
     val state: State<RabbitState> = _state
 
-    init {
+     init {
         getRandomRabbit()
     }
 
